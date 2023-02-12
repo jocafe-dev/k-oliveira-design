@@ -1,1 +1,148 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --main-dark-color: #1e212d;
+  --main-brown-color: #b68973;
+  --main-peach-color: #eabf9f;
+  --main-beige-color: #faf3e0;
+}
+
+// ---------------------------------
+
+.color-darkness {
+  color: var(--main-dark-color);
+}
+
+.color-brown {
+  color: var(--main-brown-color);
+}
+
+.color-peach {
+  color: var(--main-peach-color);
+}
+
+.color-beige {
+  color: var(--main-beige-color);
+}
+
+// ---------------------------------
+
+.bg-darkness {
+  color: var(--main-beige-color);
+  background-color: var(--main-dark-color);
+}
+
+.bg-brown {
+  background-color: var(--main-brown-color);
+}
+
+.bg-peach {
+  background-color: var(--main-peach-color);
+}
+
+.bg-beige {
+  background-color: var(--main-beige-color);
+}
+
+// ---------------------------------
+
+.custom-dark-gradient-100 {
+  background-image: linear-gradient(
+    to bottom,
+    var(--main-dark-color),
+    var(--main-beige-color)
+  );
+}
+
+.custom-dark-gradient-150 {
+  background-image: linear-gradient(
+    to right,
+    var(--main-dark-color),
+    var(--main-beige-color)
+  );
+}
+
+.custom-dark-gradient-200 {
+  background-image: linear-gradient(
+    to bottom,
+    var(--main-dark-color),
+    var(--main-brown-color)
+  );
+}
+
+.custom-dark-gradient-250 {
+  background-image: linear-gradient(
+    to right,
+    var(--main-dark-color),
+    var(--main-brown-color)
+  );
+}
+
+.custom-brown-gradient-100 {
+  background-image: linear-gradient(
+    to bottom,
+    var(--main-brown-color),
+    var(--main-beige-color)
+  );
+}
+
+.custom-brown-gradient-150 {
+  background-image: linear-gradient(
+    to right,
+    var(--main-brown-color),
+    var(--main-beige-color)
+  );
+}
+
+.custom-brown-gradient-200 {
+  background-image: linear-gradient(
+    to bottom,
+    var(--main-brown-color),
+    var(--main-peach-color)
+  );
+}
+
+.custom-brown-gradient-250 {
+  background-image: linear-gradient(
+    to right,
+    var(--main-brown-color),
+    var(--main-peach-color)
+  );
+}
+
+.custom-peach-gradient-100 {
+  background-image: linear-gradient(
+    to bottom,
+    var(--main-peach-color),
+    var(--main-beige-color)
+  );
+}
+
+.custom-peach-gradient-150 {
+  background-image: linear-gradient(
+    to right,
+    var(--main-peach-color),
+    var(--main-beige-color)
+  );
+}
+
+.custom-peach-gradient-200 {
+  background-image: linear-gradient(
+    to bottom,
+    var(--main-peach-color),
+    var(--main-dark-color)
+  );
+}
+
+.custom-peach-gradient-250 {
+  background-image: linear-gradient(
+    to right,
+    var(--main-peach-color),
+    var(--main-dark-color)
+  );
+}
+
+.navbar-brand:hover {
+  color: var(--main-peach-color) !important;
+}
+
+// ---------------------------------
